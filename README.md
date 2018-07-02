@@ -12,6 +12,42 @@ $ npm install ou yarn install
 ```node
 $ npm start ou yarn start
 ```
+
+### Estrutura do projeto
+```
+|-- MyReads
+    |-- .gitignore
+    |-- README.md
+    |-- package-lock.json
+    |-- package.json
+    |-- .idea
+    |   |-- misc.xml
+    |   |-- modules.xml
+    |   |-- myreads.iml
+    |   |-- vcs.xml
+    |   |-- workspace.xml
+    |   |-- inspectionProfiles
+    |-- public
+    |   |-- favicon.ico
+    |   |-- index.html
+    |-- src
+        |-- App.css
+        |-- App.js
+        |-- App.test.js
+        |-- index.css
+        |-- index.js
+        |-- API_BOOK
+        |   |-- BooksAPI.js
+        |-- BOOK
+        |   |-- Book.js
+        |   |-- BookSearch.js
+        |   |-- BookShelf.js
+        |-- icons
+            |-- add.svg
+            |-- arrow-back.svg
+            |-- arrow-drop-down.svg
+```
+
 ### Aplicação React
 O projeto apresenta um biblioteca pessoal onde aparece uma relação de livros com os
 seguintes status: Lendo atualmente, Quero Ler e Leitura concluida.
