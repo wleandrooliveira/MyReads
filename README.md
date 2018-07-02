@@ -13,7 +13,7 @@ $ npm install ou yarn install
 $ npm start ou yarn start
 ```
 ### Aplicação React
-O projeto apresenta um biblioteca pessoal onde aparece uma relação de livros com os &nbsp;
+O projeto apresenta um biblioteca pessoal onde aparece uma relação de livros com os
 seguintes status: Lendo atualmente, Quero Ler e Leitura concluida.
 O status pode ser alterado pelo botão na parte inferior da imagem de cada livro.
 
