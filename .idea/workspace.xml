@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bbbd808-0797-4eba-8662-fc66237d60da" name="Default" comment="" />
+    <list default="true" id="8bbbd808-0797-4eba-8662-fc66237d60da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/BOOK/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOOK/Book.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,14 +27,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="345">
-                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <caret line="23" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOOK/Book.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookShelf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOOK/BookShelf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BooksAPI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_BOOK/BooksAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -46,6 +80,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/BOOK/Book.js" />
       </list>
     </option>
   </component>
@@ -66,10 +101,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="111" />
-    <option name="width" value="1440" />
-    <option name="height" value="402" />
+    <option name="x" value="281" />
+    <option name="y" value="477" />
+    <option name="width" value="1430" />
+    <option name="height" value="667" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,6 +122,18 @@
               <item name="myreads" type="b2602c69:ProjectViewProjectNode" />
               <item name="myreads" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myreads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myreads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="API_BOOK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myreads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myreads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BOOK" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,12 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530507302276</updated>
       <workItem from="1530507304618" duration="117000" />
-      <workItem from="1530507449275" duration="2069000" />
+      <workItem from="1530507449275" duration="3623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2186000" />
+    <option name="totallyTimeSpent" value="3740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -141,7 +188,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32896176" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16830601" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -192,9 +239,35 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="345">
-            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_BOOK/BooksAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOOK/BookShelf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOOK/Book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
